@@ -8,14 +8,15 @@ from optimizer import (
 )
 
 st.set_page_config(
-    page_title="Canada Energy & Carbon Optimizer",
+    page_title="Energy & Carbon Optimizer",
     layout="wide"
 )
 
-st.title("Canada Energy Cost & Carbon Optimization Tool")
+st.title("Energy Cost & Carbon Optimization Tool")
+st.title("GitHub@IamERP")
 st.write(
     "A decision tool for comparing industrial energy cost, CO₂ emissions, "
-    "and carbon pricing impacts across Canadian provinces."
+    "and carbon pricing impacts across provinces in Canada."
 )
 
 st.sidebar.header("Input Parameters")
