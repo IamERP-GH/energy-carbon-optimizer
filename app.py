@@ -114,7 +114,7 @@ fig = px.scatter(
 
 st.plotly_chart(fig, use_container_width=True)
 
-st.subheader("AI Decision Summary")
+st.subheader("Recommended Decision Summary")
 
 if objective == "cost":
     focus = "minimizing total operating cost"
